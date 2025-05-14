@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+:root
+{
+    --ff-text: "DM Sans", sans-serif;
+    --primary-color-500:#673de6;
+    --primary-color-600:#2f1c6a;
+    --primary-color-700:#1f1346;
+    --primary-color-100:#fafbff;
+    
+}
+
+
+*{
+    box-sizing: border-box;
+    font-family: "DM Sans, sans serif";
+    margin: 0;
+    padding: 0;
+} 
+
+.nav-principal
+{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 762px;
+height: 62px;
+background-color: #fafbff;
+align-items: center;
+padding: 64px 40px;
+}
+
+.icon
+{
+width: 16px;
+}
+
+.reviews-section
+{
+display: flex;
+width: 100vw;
+height: 600px;
+background-color: #1f1346;
+flex-direction: column;
+align-items: center;
+
+}
+
+.reviews-card
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+
+}
+
+.article-card
+{
+    background-color: #2f1c6a;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-button
+{
+    display: flex;
+    justify-content: center;
+}
+
+.section-hero
+{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    padding: 62px 0px;
+}
+
+.section-hero-img
+{
+    max-width: 688px;
+    max-height: 446,48px;
+}
